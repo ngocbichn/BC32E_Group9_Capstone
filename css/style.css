@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Quicksand", sans-serif; */
+  /* font-family: "Pacifico", cursive; */
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  display: block;
+}
+
+#home {
+  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
+    url(../img/carousel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+  height: 750px;
+  background-attachment: fixed;
+}
+
+#home .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+#header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+#header .logo {
+  padding: 25px 0;
+}
+
+#header .logo a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#header .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+#header .search-bar {
+  position: relative;
+}
+
+#header .search-input {
+  padding: 25px 60px 25px 25px;
+  height: 45px;
+  font-size: 1.1rem;
+  color: #5b606c;
+  font-weight: 400;
+  outline: 0;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  position: relative;
+  right: 0;
+}
+
+#header .search-icon {
+  color: #5b606c;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}
+
+#header .button i {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.carousel h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  line-height: 70px;
+}
+
+.carousel p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 30px;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.carousel .button {
+  display: inline-block;
+  position: relative;
+}
+
+.carousel .button-icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 55px;
+  transition: all 0.5s;
+}
+
+.btn-outline-primary {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 15px 75px 15px 55px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #ff6600;
+}
+
+.carousel .button:hover .button-icon {
+  color: #ff6600;
+}
