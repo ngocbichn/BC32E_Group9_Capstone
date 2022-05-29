@@ -174,3 +174,90 @@
   color: #5b606c;
   line-height: 30px;
 }
+
+#menu .container {
+  padding: 80px 0;
+}
+
+#menu .card-columns {
+  column-gap: 30px;
+}
+
+#menu .card {
+  border-radius: 0.5rem;
+  margin-bottom: 25px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+}
+
+#menu .card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+#menu .card-bottom {
+  text-align: left;
+}
+
+#menu .card-info {
+  display: inline-block;
+  text-align: left;
+}
+
+#menu .card-body {
+  padding: 50px 40px;
+}
+
+#menu .card-icon {
+  width: 70px;
+  height: 70px;
+  line-height: 45px;
+  background-color: #f9f8ff;
+  border: 1px solid transparent;
+  color: #ff6600;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+#menu .pizza {
+  font-size: 2.3rem;
+}
+
+#menu .card-info span {
+  color: #5b606c;
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+#menu .card-info h3 {
+  color: #232121;
+  font-size: 1.7rem;
+}
+
+#menu .card-text {
+  color: #5b606c;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+#menu .card-body:hover .card-icon {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+
+#menu h3:hover {
+  color: #ff6600;
+  cursor: pointer;
+}
