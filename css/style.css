@@ -6,6 +6,10 @@
   /* font-family: "Pacifico", cursive; */
 }
 
+:hover a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -173,6 +177,149 @@
   font-weight: 400;
   color: #5b606c;
   line-height: 30px;
+}
+
+.highlight {
+  background-color: #ff6600;
+}
+
+.highlight .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-items-center .section-inner {
+  margin: 0;
+  padding: 0;
+}
+
+.highlight .row .img {
+  background-image: url(../img/banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 500px;
+}
+
+.highlight .img::before {
+  content: "";
+  background: rgb(16, 15, 19/46%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.highlight .row .text h6 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1;
+  display: block;
+  font-family: 'Pacifico', cursive;
+}
+
+.highlight .row .text h3 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.highlight .row .text p {
+  color: #ffdfc9;
+}
+
+.highlight .row .sub {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+
+.highlight .row .sub_icon i {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #ff6600;
+  line-height: 70px;
+  font-size: 25px;
+}
+
+.highlight .row .sub_icon a {
+  display: block;
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.highlight .row .sub_icon a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.highlight .row .sub_icon p {
+  color: #ffdfc9;
+}
+
+.categories {
+  background-color: #f7f7f7;
+}
+
+.categories .slide-grid {
+  position: relative;
+  margin-bottom: 32px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+}
+
+.categories .img {
+  position: relative;
+}
+
+.categories .img::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+
+}
+
+.categories .img img {
+  display: block;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.categories .info {
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  width: 95%;
+  color: #fff;
+  transform: translate3d(0, 10%, 0);
+  transition: opacity 0.3s;
+}
+
+.categories .info h4 {
+  font-size: 18px;
+  color: #fff;
 }
 
 #menu .container {
