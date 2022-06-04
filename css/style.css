@@ -563,3 +563,132 @@
   color: #ffffff;
   display: inline-block;
 }
+
+#post {
+  background-color: #f7f7f7;
+}
+
+#post .container {
+  padding: 100px 0;
+}
+
+.post-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.post-title h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  color: #ff6600;
+}
+
+.post-title p {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  line-height: 50px;
+}
+
+#post .card {
+  border-radius: 3%;
+  background-color: transparent;
+  border: transparent;
+}
+
+#post .card-header {
+  padding: 0;
+  position: relative;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  overflow: hidden;
+  background-color: transparent;
+  border: transparent;
+}
+
+#post .card-header img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+#post .img-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 180px;
+  left: 10px;
+}
+
+#post .img-detail a {
+  background-color: #ff6600;
+  color: #ffffff;
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 3px 25px;
+  margin-bottom: 5px;
+  display: inline-block;
+  letter-spacing: 0.05em;
+}
+
+#post .detail-time {
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+
+#post .detail-time .icon {
+  margin-right: 10px;
+}
+
+#post .card-body {
+  padding: 20px 0;
+}
+
+#post .card-title {
+  font-size: 1.6rem;
+  line-height: 35px;
+}
+
+#post .card-text {
+  color: #5b606c;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#post .card-body-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#post .card-body-footer img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+#post .user-name {
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+#post .more-info span {
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#post .more-info:hover span {
+  color: #ff6600;
+  cursor: pointer;
+}
