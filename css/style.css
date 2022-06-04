@@ -150,6 +150,13 @@
   color: #ff6600;
 }
 
+.carousel .button-icon #about .container {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #about .container {
   padding: 80px 0;
   display: flex;
@@ -221,7 +228,7 @@
   line-height: 30px;
   letter-spacing: 1;
   display: block;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .highlight .row .text h3 {
@@ -239,7 +246,6 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
 }
-
 
 .highlight .row .sub_icon i {
   width: 70px;
@@ -296,7 +302,6 @@
   height: 40%;
   position: absolute;
   background: rgba(0, 0, 0, 0);
-
 }
 
 .categories .img img {
@@ -407,4 +412,154 @@
 #menu h3:hover {
   color: #ff6600;
   cursor: pointer;
+}
+
+#banner {
+  background-image: url(../img/banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#banner .overlay {
+  background: rgba(7, 10, 12, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#banner .container {
+  padding-top: 130px;
+  padding-bottom: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .banner-title {
+  margin-bottom: 45px;
+  position: relative;
+}
+
+#banner .banner-title h3 {
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#banner .banner-button {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#banner .button-left,
+#banner .button-right {
+  display: inline-block;
+  position: relative;
+}
+
+#banner .button-icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 55px;
+  transition: all 0.5s;
+}
+
+#banner .button-left {
+  transition-duration: 0.8s;
+}
+
+#banner .button-left:hover .button-icon {
+  color: #ff6600;
+}
+
+#banner .button-right {
+  transition: 0.3s ease;
+}
+
+#banner .button-right .button-icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 55px;
+}
+
+.button-right .btn-outline-primary {
+  color: #ffffff;
+  border: 2px solid #ff6600;
+  border-radius: 7px;
+  position: relative;
+}
+
+.button-right .btn {
+  background-color: #ff6600;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 15px 75px 15px 55px;
+}
+
+#banner .button-right:hover {
+  opacity: 0.8;
+}
+
+#statistics {
+  position: relative;
+  margin-top: -85px;
+  z-index: 10;
+  margin-bottom: 150px;
+}
+
+#statistics .card {
+  border: 1px solid #eeeeee;
+  border-radius: 3%;
+  box-shadow: 0 25px 98px 0 rgb(1 1 1 / 5%);
+}
+
+#statistics .card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px,
+    rgba(71, 63, 79, 0.16) 0px 5px 10px;
+  transition: 0.3s ease;
+}
+
+#statistics .card-body {
+  padding: 40px;
+  text-align: center;
+}
+
+#statistics .card .card-title {
+  font-size: 2.7rem;
+  font-weight: 500;
+  margin: 25px 0 10px 0;
+  display: block;
+}
+
+#statistics .card-text {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #5b606c;
+}
+
+#statistics .card-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  line-height: 70px;
+  background-color: #ff6600;
+  font-size: 1.7rem;
+  color: #ffffff;
+  display: inline-block;
 }
