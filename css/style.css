@@ -692,3 +692,140 @@
   color: #ff6600;
   cursor: pointer;
 }
+
+#footer {
+  background-color: #000000;
+}
+
+#footer .container {
+  padding: 70px 0 50px 0;
+}
+
+#footer .footer-main .logo-title {
+  color: #ffffff;
+  transition: all 0.7s;
+}
+
+.logo-title h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#footer .footer-main .logo-title:hover {
+  color: #ff6600;
+}
+
+#footer .footer-main p {
+  color: #a29f9e;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin: 25px 0;
+}
+
+#footer .footer-main .col-one {
+  padding-right: 25px;
+}
+
+#footer .social-media-icon a {
+  color: #ff6600;
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+
+#footer .social-media-icon a:hover {
+  color: #ffffff;
+  background-color: #ff6600;
+}
+
+.footer-main .title {
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: #a29f9e;
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  padding: 0.4rem 0;
+  transition: all 0.8s;
+}
+
+.list-group-item:hover {
+  color: #ff6600;
+}
+
+.footer-main .form-control {
+  padding: 2rem 1rem;
+  font-family: "Quicksand", sans-serif;
+  color: #5b606c;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ff6600;
+}
+
+.footer-main .subscribe-button {
+  background-color: #ff6600;
+  border-radius: 0.5rem;
+  transition: all 0.6s;
+}
+
+.subscribe-button button {
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:hover button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright-left {
+  font-family: "Quicksand", sans-serif;
+  color: #dddddd;
+  font-size: 1.2rem;
+}
+
+.copyright-left a {
+  color: #ff6600;
+}
+
+.copyright-left a:hover {
+  color: #ffffff;
+}
+
+.copyright-right a {
+  color: #a29f9e;
+  margin-right: 35px;
+  font-size: 1.2rem;
+}
+
+.copyright-right a:hover {
+  color: #ff6600;
+}
