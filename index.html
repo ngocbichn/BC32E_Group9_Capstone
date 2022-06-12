@@ -27,7 +27,6 @@
 
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/dark.css" id="theme-link">
 
 </head>
 
@@ -101,7 +100,8 @@
                         Book a table easly at the best price
                     </h3>
                     <p>
-                        Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet
+                        Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit <br />
+                        amet
                         mattis quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.
                     </p>
                 </div>
@@ -113,7 +113,7 @@
                                 Best deal
                             </a>
                             <p>
-                                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+                                Lorem ipsum viverra feugiat. Pellen <br /> tesque libero justo.
                             </p>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 Best Food
                             </a>
                             <p>
-                                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+                                Lorem ipsum viverra feugiat. Pellen <br /> tesque libero justo.
                             </p>
                         </div>
                     </div>
@@ -748,7 +748,6 @@
         </div>
     </footer>
 
-    <button class="btn-toggle">Linght-Mode</button>
     <!-- Counting Up -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -826,17 +825,7 @@
         };
     </script>
 
-    <script>
-        const btn = document.querySelector(".btn-toggle");
-        const theme = document.querySelector("#theme-link");
-        btn.addEventListener("click", function () {
-            if (theme.getAttribute("href") == "dark.css") {
-                theme.href = "style.css";
-            } else {
-                theme.href = "dark.css";
-            }
-        });
-    </script>
+
 
     <!-- bootstrap -->
 
